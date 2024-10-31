@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">POCKET</string>
+    <string name="n_history">History</string>
+    <string name="P">Open user profile</string>
+    <string name="R">Open user reward</string>
+    <string name="PH">Plus more history</string>
+    <string name="home">Open home</string>
+    <string name="settings">Open user setting</string>
+    <string name="note">Open user note</string>
+    <string name="S">Search</string>
+    <string name="PD">Pick Date</string>
+    <string name="his">History</string>
+    <string name="hintgoal">goal today</string>
+    <string name="goal">Goal</string>
+</resources>

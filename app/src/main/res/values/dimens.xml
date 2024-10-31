@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_set">0dp</dimen>
+    <dimen name="text_size_small">10dp</dimen>
+    <dimen name="text_size_medium">16dp</dimen>
+    <dimen name="text_size_large">20dp</dimen>
+    <dimen name="text_size_display">32dp</dimen>
+    <dimen name="text_size_icons">50dp</dimen>
+    <dimen name="text_size_search">60dp</dimen>
+    <dimen name="text_size_goal">200dp</dimen>
+    <dimen name="text_size_pocket">252dp</dimen>
+    <dimen name="raduis_size">500dp</dimen>
+    <dimen name="w2_size">2dp</dimen>
+    <dimen name="w1_size">1dp</dimen>
+</resources>
