@@ -19,5 +19,9 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "Pocket"
+=======
+rootProject.name = "Cs361v.2"
+>>>>>>> 4771aee (Pocket Ver3)
 include ':app'

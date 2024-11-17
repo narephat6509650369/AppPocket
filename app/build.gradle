@@ -3,12 +3,21 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace 'com.example.pocket'
     compileSdk 34
 
     defaultConfig {
         applicationId "com.example.pocket"
         minSdk 28
+=======
+    namespace 'com.example.cs361v2'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.cs361v2"
+        minSdk 24
+>>>>>>> 4771aee (Pocket Ver3)
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -29,12 +38,28 @@ android {
 }
 
 dependencies {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4771aee (Pocket Ver3)
     implementation libs.appcompat
     implementation libs.material
     implementation libs.activity
     implementation libs.constraintlayout
+<<<<<<< HEAD
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 }
+=======
+
+    // Add ViewModel and LiveData dependencies
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.2"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2"
+
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+}
+>>>>>>> 4771aee (Pocket Ver3)

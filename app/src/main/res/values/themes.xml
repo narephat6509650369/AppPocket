@@ -1,9 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Base.Theme.Pocket" parent="Theme.AppCompat.Light.NoActionBar">
+=======
+    <style name="Base.Theme.Cs361v2" parent="Theme.AppCompat.Light.NoActionBar">
+>>>>>>> 4771aee (Pocket Ver3)
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+<<<<<<< HEAD
     <style name="Theme.Pocket" parent="Base.Theme.Pocket" />
+=======
+    <style name="Theme.Cs361v2" parent="Base.Theme.Cs361v2" />
+>>>>>>> 4771aee (Pocket Ver3)
 </resources>

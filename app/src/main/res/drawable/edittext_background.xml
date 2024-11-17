@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4771aee (Pocket Ver3)
     <item android:state_focused="true">
         <shape android:shape="rectangle">
             <solid android:color="@color/white"/>
@@ -20,5 +23,10 @@
             <corners android:radius="@dimen/raduis_size"/>
         </shape>
     </item>
+<<<<<<< HEAD
 </selector>
 
+=======
+
+</selector>
+>>>>>>> 4771aee (Pocket Ver3)

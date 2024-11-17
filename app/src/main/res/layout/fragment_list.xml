@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"> <!-- ทำให้เนื้อหาครอบคลุมหน้าจอถ้าเนื้อหาน้อย -->
+
+    <!-- LinearLayout ภายใน ScrollView -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".ListFragment">
+
+        <!-- Layout for selecting monthly or yearly view -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/income_and_expense_summary"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/text_medium"
+            android:layout_marginTop="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/monthly" />
+
+            <RadioButton
+                android:id="@+id/radioYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yearly" />
+        </RadioGroup>
+
+        <!-- Spinner for selecting month -->
+        <Spinner
+            android:id="@+id/spinnerMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <!-- Spinner for selecting year -->
+        <Spinner
+            android:id="@+id/spinnerYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <!-- Button to display the data -->
+        <Button
+            android:id="@+id/btnShowData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_data" />
+
+        <!-- TextView to display the total of transactions -->
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_0_00"
+            android:textSize="18sp"
+            android:padding="16dp" />
+
+        <!-- ListView to display the list of transactions -->
+        <ListView
+            android:id="@+id/listViewTransactions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</ScrollView>
